@@ -35,9 +35,9 @@ void funda(){
 
 };
 
- cout<<setprecision(4)<<rightsum/n<<endl;
-  cout<<setprecision(4)<<leftsum/n<<endl;
-  cout<<setprecision(4)<<zerosum/n<<endl;
+ cout<<setprecision(3)<<rightsum/n<<endl;
+  cout<<setprecision(3)<<leftsum/n<<endl;
+  cout<<setprecision(3)<<zerosum/n<<endl;
 
 
 
