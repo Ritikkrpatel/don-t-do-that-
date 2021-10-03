@@ -10,12 +10,12 @@ double area= .5*x*y;
 
 
       double inp(){double a,b;
-      cout<<"Enter the base value"<<endl;
+      cout<<"Enter the base length of tringle"<<endl;
       cin>> a;
-       cout<<"Enter the height value"<<endl;
+       cout<<"Enter the height of triangle"<<endl;
       cin>>b;
-      cout<<"The area of following tringle is :"<<endl;
-          double surface=a*b*.5;
+      cout<<"The area of following given tringle is :"<<endl;
+          float surface=a*b*.5*1;
           cout<<surface;
       };
 
@@ -25,7 +25,7 @@ double area= .5*x*y;
 int main(){
 
 funda fo;
-fo.triangle(0,3);
+fo.triangle(0,6);
 fo.inp();
 
 
