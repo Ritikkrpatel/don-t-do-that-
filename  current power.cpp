@@ -4,7 +4,7 @@ class funda{
 
 
 public:
- int  called(){
+ int  call(){
 string x;
 cout<<"which type of data you have:(VI,IR,VR)" <<endl;
 cin>>x;
@@ -29,13 +29,13 @@ cout<<"Enter the value of voltage : "<<endl;
     double power=r*i*i;
     cout<<"The power is in this type of ckt :"<<power<<" watt."<<endl;};
     if (x=="VR"){
-    cout<<"Enter the value of voltage in the term of volt : "<<endl;
+    cout<<"Enter the value of voltage : "<<endl;
     cin>>v;
-    cout<<"Enter the value of resistance in the term of ohm : "<<endl;
+    cout<<"Enter the value of resistance : "<<endl;
     cin>> r;
 
-    double power=v*v/r ;
-    cout<<"The power is in this type of ckt :"<<power<<" watt"<<endl;
+    double power=v*v/r;
+    cout<<"The power is in this type of ckt :"<<power<<" watt."<<endl;
     };
 
  };
@@ -43,7 +43,7 @@ cout<<"Enter the value of voltage : "<<endl;
 };
 int main(){
 funda fo;
-fo.called();
+fo.call();
 
 
 return 0;
